@@ -2,7 +2,7 @@ var entrada = require ("readline-sync");
 
 var numb = Math.floor(Math.random() *100);
 var tentativa=0;
-var contador=0;
+var contador=1;
 
 var novamente = true;
 while (novamente) {
