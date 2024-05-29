@@ -1,12 +1,8 @@
 var entrada = require ("readline-sync");
-<<<<<<< HEAD
 
-
-var num1 = parseFloat(entrada.question(`Escolha o primerio numero: `)); // Primeiro número
-=======
 while( decisao != "N"){
 var num1 = parseFloat(entrada.question(`Escolha o primeiro numero: `)); // Primeiro número
->>>>>>> 7e7ce104d3d21d84ba219094582a7931d3028f51
+
 var num2 = parseFloat(entrada.question(`Escolha o segundo numero: `));  // Segundo número
 var operador = entrada.question(`Qual operação voce deseja fazer? adicao,subtracao,divisao,multiplicacao, raiz ou potencia? `); 
 
