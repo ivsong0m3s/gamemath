@@ -1,11 +1,10 @@
 var entrada = require ("readline-sync");
 
-// Exemplo de valores para teste
+
 var num1 = parseFloat(entrada.question(`Escolha o primerio numero: `)); // Primeiro número
 var num2 = parseFloat(entrada.question(`Escolha o segundo numero: `));  // Segundo número
-var operador = entrada.question(`Qual operação voce deseja fazer? adicao,subtracao,divisao,multiplicacao, raiz ou potencia? `); // Operador pode ser "add", "subtract", "multiply" ou "divide"
+var operador = entrada.question(`Qual operação voce deseja fazer? adicao,subtracao,divisao,multiplicacao, raiz ou potencia? `); 
 
-// Verifica se os números são válidos
 if (isNaN(num1) || isNaN(num2)) {
     console.log("Por favor, insira números válidos.");
 } else {
